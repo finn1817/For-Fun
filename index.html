@@ -68,17 +68,19 @@
         }
         .back-to-home {
             position: absolute;
-            top: 20px;
-            left: 20px;
+            top: 0;
+            left: 0;
             padding: 10px 20px;
-            background-color: #4caf50; /* Green background */
+            background-color: #4caf50; /* Same green as the first page */
             color: white;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 0; /* No rounded corners for the top left position */
             font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
         .back-to-home:hover {
-            background-color: #45a049; /* Darker green on hover */
+            background-color: #4caf50; /* Keep the same green on hover */
+            color: white; /* Keep the text color white even on hover */
         }
     </style>
 </head>
@@ -90,7 +92,7 @@
         <h1>My Free-Time Activities</h1>
         <div class="interests">
             <h2>My Interests</h2>
-            <p>I enjoy doing tons of things from DoorDashing to playing video games. I'm also very interested in programming, whether it's for schoolwork or just as a hobby. I also spend some time working on my car, mostly trying to keep it from having issues on my drive to school but I do enjoy learning how to do it all myself!</p>
+            <p>I enjoy doing tons of things from DoorDashing to playing video games. I also love programming, whether it's for schoolwork or just for fun. I also spend some time working on my car, mostly trying to keep it from having issues on my drive to school but I do enjoy learning how to do it all myself!</p>
             <ul>
                 <li>I love working on any Programming Projects</li>
                 <li>I do my own Automotive Repairs</li>
